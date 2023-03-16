@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  Prove It
+
+  Created by Lara Pereira on 09/03/23.
+  
+*/
+"CONTINUAR" = "Continue";
+"INICIO" = "Home";
+"JOGAR" = "Play";
+"TEXT" = "-text_en";
+"TUTORIAL" = "-tutorial_en";
+"CREDITOS" = "-creditos_en";
+"CONFIGURACAO" = "Settings";
+"REINICIAR" = "Restart";
+"CREDITS" = "Credits";
+"VITIMA" = "Victim";
+"CRIME" = "Crime";
+"LUGAR" = "Place";
+"CARTAS DE CASO" = "Case Cards";
+"PARTICIPANTES" = "Players";
+"NOME PARTICIPANTES..." = "Player names...";
+"EDITAR" = "Edit";
+"EQUIPES" = "Teams";
+"CASOS" = "Cases";
+"SORTEIE CASOS" = "Case Draw";
+"SORTEIE SUSPEITOS" = "Suspects Draw";
+"PREPARAÇÃO" = "Preparation";
+"TEXTO PREPARAÇÃO" = "Create your arguments!";
+"ACUSAÇÃO" = "Accusation";
+"RODADA 1" = "Round 1";
+"EQUIPE AZUL," = "Blue Team,";
+"TEXTO RODADA" = "get ready to accuse your suspect!";
+"RESPOSTA" = "Response";
+"FINALIZAÇÃO" = "Conclusion";
+"RODADA 2" = "Round 2";
+"EQUIPE VERMELHA," = "Red Team,";
+"ESCOLHA CULPADO" = "Choose the Guilty";
+"PRÓXIMO CASO" = "Next Case";
+"CULPADO" = "Guilty";
+"VENCEDOR" = "Winner";
+"EQUIPE AZUL" = "Blue Team";
+"EQUIPE VERMELHA" = "Red Team";
+"SUSPEITO" = "-suspeito_en";

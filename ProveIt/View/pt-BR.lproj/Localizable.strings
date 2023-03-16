@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  Prove It
+
+  Created by Lara Pereira on 09/03/23.
+  
+*/
+"CONTINUAR" = "Continuar";
+"INICIO" = "Início";
+"JOGAR" = "Jogar";
+"TEXT" = "-text_pt";
+"TUTORIAL" = "-tutorial_pt";
+"CREDITOS" = "-creditos_pt";
+"CONFIGURACAO" = "Configurações";
+"REINICIAR" = "Reiniciar";
+"CREDITS" = "Créditos";
+"VITIMA" = "Vítima";
+"CRIME" = "Crime";
+"LUGAR" = "Lugar";
+"CARTAS DE CASO" = "Cartas de Caso";
+"PARTICIPANTES" = "Participantes";
+"NOME PARTICIPANTES..." = "Nome dos participantes...";
+"EDITAR" = "Editar";
+"EQUIPES" = "Equipes";
+"CASOS" = "Casos";
+"SORTEIE CASOS" = "Sorteie os Casos";
+"SORTEIE SUSPEITOS" = "Sorteie os Suspeitos";
+"PREPARAÇÃO" = "Preparação";
+"TEXTO PREPARAÇÃO" = "Criem seus argumentos!";
+"ACUSAÇÃO" = "Acusação";
+"RODADA 1" = "Rodada 1";
+"EQUIPE AZUL," = "Equipe Azul,";
+"TEXTO RODADA" = "prepare-se para acusar seu suspeito!";
+"RESPOSTA" = "Resposta";
+"FINALIZAÇÃO" = "Finalização";
+"RODADA 2" = "Rodada 2";
+"EQUIPE VERMELHA," = "Equipe Vermelha,";
+"ESCOLHA CULPADO" = "Escolha o Culpado";
+"PRÓXIMO CASO" = "Próximo Caso";
+"CULPADO" = "Culpado";
+"VENCEDOR" = "Vencedor";
+"EQUIPE AZUL" = "Equipe Azul";
+"EQUIPE VERMELHA" = "Equipe Vermelha";
+"SUSPEITO" = "-suspeito_pt";
+
+
+
+
