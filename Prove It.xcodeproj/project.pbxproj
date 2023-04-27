@@ -40,9 +40,8 @@
 		A720A5A029786AB5000C5383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A720A59F29786AB5000C5383 /* Assets.xcassets */; };
 		A720A5A329786AB5000C5383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A720A5A229786AB5000C5383 /* Preview Assets.xcassets */; };
 		A76F95D2299C6529001A07E4 /* PopUpCaseCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F95D1299C6529001A07E4 /* PopUpCaseCards.swift */; };
+		A79A26D429F9B4FF00F08529 /* SuspectChosenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A26D329F9B4FF00F08529 /* SuspectChosenView.swift */; };
 		A7CB1F0829A7E34A00AE2F77 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB1F0729A7E34A00AE2F77 /* Haptics.swift */; };
-		A7CB1F0A29A7EBD100AE2F77 /* SuspectChosenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB1F0929A7EBD100AE2F77 /* SuspectChosenView.swift */; };
-		A7CB1F0C29A7EBE600AE2F77 /* SuspectChosenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB1F0B29A7EBE600AE2F77 /* SuspectChosenView.swift */; };
 		C92954A429A873CF003B9B21 /* Final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92954A329A873CF003B9B21 /* Final.mp3 */; };
 		C92954A729A873F6003B9B21 /* Countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92954A529A873F6003B9B21 /* Countdown.mp3 */; };
 		C92954A829A873F6003B9B21 /* Mysterious.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92954A629A873F6003B9B21 /* Mysterious.mp3 */; };
@@ -113,9 +112,8 @@
 		A720A59F29786AB5000C5383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A720A5A229786AB5000C5383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A76F95D1299C6529001A07E4 /* PopUpCaseCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpCaseCards.swift; sourceTree = "<group>"; };
+		A79A26D329F9B4FF00F08529 /* SuspectChosenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspectChosenView.swift; sourceTree = "<group>"; };
 		A7CB1F0729A7E34A00AE2F77 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
-		A7CB1F0929A7EBD100AE2F77 /* SuspectChosenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspectChosenView.swift; sourceTree = "<group>"; };
-		A7CB1F0B29A7EBE600AE2F77 /* SuspectChosenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspectChosenView.swift; sourceTree = "<group>"; };
 		C92954A329A873CF003B9B21 /* Final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Final.mp3; sourceTree = "<group>"; };
 		C92954A529A873F6003B9B21 /* Countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Countdown.mp3; sourceTree = "<group>"; };
 		C92954A629A873F6003B9B21 /* Mysterious.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mysterious.mp3; sourceTree = "<group>"; };
@@ -186,8 +184,7 @@
 				A70C84AF298AA36E00878B44 /* AzulRebate.swift */,
 				A70C84AA298AA36D00878B44 /* VermelhaFinaliza.swift */,
 				A720A59D29786AB4000C5383 /* GameOverView.swift */,
-				A7CB1F0929A7EBD100AE2F77 /* SuspectChosenView.swift */,
-				A7CB1F0B29A7EBE600AE2F77 /* SuspectChosenView.swift */,
+				A79A26D329F9B4FF00F08529 /* SuspectChosenView.swift */,
 				A70C8489298995DD00878B44 /* RankingView.swift */,
 				A70C84C8298B3CCD00878B44 /* WinnerView.swift */,
 				A70C84C2298AC9AF00878B44 /* CardAnimationView.swift */,
@@ -422,10 +419,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7CB1F0C29A7EBE600AE2F77 /* SuspectChosenView.swift in Sources */,
-				A7CB1F0A29A7EBD100AE2F77 /* SuspectChosenView.swift in Sources */,
 				C9DC18F029955FBA0046B583 /* SoundManager.swift in Sources */,
 				A70C84B3298AA36E00878B44 /* AzulFinaliza.swift in Sources */,
+				A79A26D429F9B4FF00F08529 /* SuspectChosenView.swift in Sources */,
 				A70C847429896A9700878B44 /* Team.swift in Sources */,
 				A70C847A29896D6700878B44 /* DisplayGroups.swift in Sources */,
 				C9BCF8F029BA88A700852820 /* LocalizedImage.swift in Sources */,
@@ -540,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -594,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -612,7 +608,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"ProveIt/Preview Content\"";
-				DEVELOPMENT_TEAM = 7LBC5264SU;
+				DEVELOPMENT_TEAM = P8V86Z8J6S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -628,7 +624,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = proveitcardgame;
+				PRODUCT_BUNDLE_IDENTIFIER = proveit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -647,7 +643,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"ProveIt/Preview Content\"";
-				DEVELOPMENT_TEAM = 7LBC5264SU;
+				DEVELOPMENT_TEAM = P8V86Z8J6S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -663,7 +659,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = proveitcardgame;
+				PRODUCT_BUNDLE_IDENTIFIER = proveit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

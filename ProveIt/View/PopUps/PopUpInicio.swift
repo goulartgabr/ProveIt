@@ -47,14 +47,17 @@ struct PopUpInicio_Previews: PreviewProvider {
     }
 }
 struct Creditos: View {
+    
     @State private var showCredito = false
     @EnvironmentObject var debate : DebateManager
+    
     var body: some View {
         Button{
             if debate.soundIsON {
                 SoundManager.instance.playSound(sound: .OpenCase)
             }
             withAnimation{
+                debate.showPopUp = true
                 showCredito.toggle()
             }
         } label: {

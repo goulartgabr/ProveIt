@@ -33,6 +33,8 @@ class DebateManager: ObservableObject {
     
     @Published var showPreparar: Bool = true
     
+    @Published var showPopUp: Bool = false
+    
     
     
     //MARK: -functions

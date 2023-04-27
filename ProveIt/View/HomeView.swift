@@ -7,18 +7,13 @@
 
 import SwiftUI
 
-
-
 struct HomeView: View {
     
-    @State var showPopUp: Bool = false
     @EnvironmentObject var debate : DebateManager
      
     var body: some View {
             NavigationView {
                 ZStack{
-                    
-                    
                     Color(.black)
                         .ignoresSafeArea()
                     //
@@ -30,11 +25,13 @@ struct HomeView: View {
                         .resizable()
                         .frame(width: 300, height: 300)
                         .padding(.bottom, 400)
+                        .opacity(debate.showPopUp ? 0.4 : 1)
                     
                     NavigationLink {
                         EnterPlayer()
                     } label: {
                         RoundedRectangleWithText(text: "JOGAR")
+                            .opacity(debate.showPopUp ? 0.4 : 1)
                     }
                     .simultaneousGesture(TapGesture().onEnded{
                         if debate.soundIsON {
@@ -45,31 +42,32 @@ struct HomeView: View {
                         }
                     })            .padding(.top, 200)
 
-                    Button {
-                        debate.startTutorial()
-                        if debate.soundIsON {
-                            SoundManager.instance.playSound(sound: .ButtonSound)
-                        }
-                    } label: {
+                    if debate.showPopUp{
                         RoundedRectangleWithoutStroke(text: "Tutorial")
-
-
-                    } .frame(width: 400, height: 200)
-                    .padding(.top, 350)
-                    
-                    if showPopUp == true {
-                        ZStack{
-                            Button(){
-                                withAnimation{
-                                    showPopUp.toggle()
-                                }
-                            } label: {
-                                Image("Opacidade")
+                            .opacity(debate.showPopUp ? 0.4 : 1)
+                            .frame(width: 400, height: 200)
+                            .padding(.top, 350)
+                    }
+                    else{
+                        Button {
+                            debate.startTutorial()
+                            if debate.soundIsON {
+                                SoundManager.instance.playSound(sound: .ButtonSound)
                             }
-                            PopUpInicio()
+                        } label: {
+                            RoundedRectangleWithoutStroke(text: "Tutorial")
+                                .opacity(debate.showPopUp ? 0.4 : 1)
                         }
+                        .frame(width: 400, height: 200)
+                        .padding(.top, 350)
                     }
                     
+                    if debate.showPopUp {
+                        PopUpInicio()
+                    }
+                }
+                .onTapGesture {
+                    debate.showPopUp = false
                 }
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
@@ -79,7 +77,7 @@ struct HomeView: View {
                                 SoundManager.instance.playSound(sound: .Settings)
                             }
                             withAnimation{
-                                showPopUp.toggle()
+                                debate.showPopUp.toggle()
                             }
                         } label: {
                             Image ("Ajustes")
@@ -88,7 +86,6 @@ struct HomeView: View {
                     }
                 }
             }
-        
     }
 }
 
@@ -132,10 +129,6 @@ struct LoadingView: View {
                 .onAppear{startFakeNetworkCall()}
                 .padding(.top,200)
             }
-            
-//            if ShowHome && !ShowLoading{
-//                HomeView()
-//            }
         }
     
     

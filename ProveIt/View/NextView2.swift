@@ -113,7 +113,7 @@ struct NextView2: View {
             
             
             Spacer()
-            if cardsFlipped.allSatisfy { $0 == true } == true {
+            if cardsFlipped.allSatisfy({ $0 == true }) == true {
                 Button {
                     if debate.soundIsON {
                         SoundManager.instance.playSound(sound: .ButtonSound)
